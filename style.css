@@ -1,0 +1,45 @@
+h1{
+    color: blue;
+    background-color: seagreen;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h1:hover{
+    color: skyblue;
+    background-color: brown;
+    margin: 50px;
+    padding: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.middel-input:focus{
+    color: blue;
+    font-weight: 700;
+}
+
+li:first-child{
+    color: chocolate;
+
+}
+li:last-child{
+    background-color: cornflowerblue;
+}
+li:nth-child(2n) {
+    color: red;
+}
+
+li:nth-child(2n+1) {
+    background-color: darkcyan;
+}
+h3::after {
+    content: 'Hello';
+}
+h3::before {
+    content: 'gello';
+    background-color: darkkhaki;
+    font-size: 12px;
+}
